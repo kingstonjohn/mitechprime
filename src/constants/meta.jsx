@@ -1,0 +1,2 @@
+export const MetaViewportWidth = <meta name="viewport" content="width=1024, maximum-scale=1.0" />
+export const MetaResponsiveViewportWidth = <meta name="viewport" content="width=device-width, initial-scale=1.0" />
