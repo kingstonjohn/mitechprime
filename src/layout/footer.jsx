@@ -19,12 +19,6 @@ export default function Footer() {
                     </div>
                     <div>
                         <h1 className="font-bold text-[15px] text-white mb-2">About us</h1>
-                        {/* <div>
-                            <Link className="text-ash text-[14px] font-medium hover:text-[#4a8ded]">Contacts</Link>
-                        </div>
-                        <div>
-                            <a href='mailto:team@fizomarkt.com' className="text-ash text-[14px] font-medium hover:text-[#4a8ded]">team@Fizohedge.com</a>
-                        </div> */}
                         <div>
                             <Link to='/terms-and-conditions' className="text-ash text-[14px] font-medium hover:text-[#4a8ded]">Terms and Conditions</Link>
                         </div>
@@ -37,7 +31,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="py-10 border-t-[1px] border-t-[#ffffff0d] text-ash text-[13px]">
-                    <p>Risk Warning: Trading Forex and Leveraged Financial Instruments involves significant risk and can result in the loss of your invested capital. You should not invest more than you can afford to lose and should ensure that you fully understand the risks involved. Trading leveraged products may not be suitable for all investors. Trading non-leveraged products such as stocks also involves risk as the value of a stock can fall as well as rise, which could mean getting back less than you originally put in. Past performance is no guarantee of future results. Before trading, please take into consideration your level of experience, investment objectives and seek independent financial advice if necessary. It is the responsibility of the Client to ascertain whether he/she is permitted to use the services of the Fizohedge brand based on the legal requirements in his/her country of residence.</p>
+                    <p>Risk Warning: Trading Forex and Leveraged Financial Instruments involves significant risk and can result in the loss of your invested capital. You should not invest more than you can afford to lose and should ensure that you fully understand the risks involved. Trading leveraged products may not be suitable for all investors. Trading non-leveraged products such as stocks also involves risk as the value of a stock can fall as well as rise, which could mean getting back less than you originally put in. Past performance is no guarantee of future results. Before trading, please take into consideration your level of experience, investment objectives and seek independent financial advice if necessary. It is the responsibility of the Client to ascertain whether he/she is permitted to use the services of the {APP_NAME} brand based on the legal requirements in his/her country of residence.</p>
                 </div>
                 <span className="text-ash text-[14px]">Copyright © 2017 {APP_NAME}. All rights reserved</span>
             </Box>

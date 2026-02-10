@@ -6,6 +6,7 @@ import { navLinksData } from "../data/link";
 import { Disclosure, Transition } from "@headlessui/react";
 import clsx from "clsx";
 import { useAuthStateContext } from "../context/authState";
+import { APP_NAME } from "../constants";
 
 export default function MobileNavbar({ visible, closeHandler, openModalHandler }) {
 
@@ -63,15 +64,15 @@ export default function MobileNavbar({ visible, closeHandler, openModalHandler }
                                                                     </div>
                                                                 ) : (
                                                                     <div key={j}>
-                                                                        <a href="mailto:support@fizohedge.com" className="text-[15px] text-[#a4a5ab] hover:text-[#D8BFD8]">
-                                                                            Support@fizohedge.com
+                                                                        <a href={`mailto:team@${APP_NAME}.com`} className="text-[15px] text-[#a4a5ab] hover:text-[#D8BFD8]">
+                                                                            team@{APP_NAME}.com
                                                                         </a>
                                                                         <div
                                                                             onClick={() => {
                                                                                 closeHandler();
                                                                                 openModalHandler();
                                                                             }}
-                                                                            href="mailto:support@fizohedge.com" className="text-[15px] text-[#a4a5ab] hover:text-[#D8BFD8] mt-2 cursor-pointer"
+                                                                            href={`mailto:team@${APP_NAME}.com`} className="text-[15px] text-[#a4a5ab] hover:text-[#D8BFD8] mt-2 cursor-pointer"
                                                                         >
                                                                             Office address
                                                                         </div>

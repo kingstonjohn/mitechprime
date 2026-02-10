@@ -2,6 +2,7 @@ import { Star, Quote, User, CheckCircle } from 'lucide-react';
 import Navbar from '../layout/navbar';
 import Footer from '../layout/footer';
 import { Link } from 'react-router-dom';
+import { APP_NAME } from '../constants';
 
 export default function Reviews({ isPage = false }) {
 
@@ -12,7 +13,7 @@ export default function Reviews({ isPage = false }) {
             role: "Forex Trader",
             rating: 5,
             date: "2 months ago",
-            content: "Fizohedge's copy trading feature has completely transformed my investment strategy. Mirroring expert trades helped me achieve consistent 15% monthly returns while learning from the best. The platform's intuitive interface makes complex trading accessible to beginners.",
+            content: `${APP_NAME}'s copy trading feature has completely transformed my investment strategy. Mirroring expert trades helped me achieve consistent 15% monthly returns while learning from the best. The platform's intuitive interface makes complex trading accessible to beginners.`,
             verified: true,
             avatarColor: "bg-blue-500"
         },
@@ -72,7 +73,7 @@ export default function Reviews({ isPage = false }) {
             role: "Crypto Investor",
             rating: 5,
             date: "2 days ago",
-            content: "Fizohedge made investing stress-free for me. Deposits and withdrawals are fast and simple, just like any top crypto exchange. After my first successful withdrawal, I knew this was a platform I could trust and grow with.",
+            content: `${APP_NAME} made investing stress-free for me. Deposits and withdrawals are fast and simple, just like any top crypto exchange. After my first successful withdrawal, I knew this was a platform I could trust and grow with.`,
             verified: true,
             avatarColor: "bg-indigo-500"
         },
@@ -82,7 +83,7 @@ export default function Reviews({ isPage = false }) {
             role: "Crypto Trader",
             rating: 5,
             date: "5 days ago",
-            content: "Fizohedge stands out for its reliability. Deposits and withdrawals are smooth and fast, just like using a trusted crypto wallet. My first withdrawal gave me full confidence to invest more.",
+            content: `${APP_NAME} stands out for its reliability. Deposits and withdrawals are smooth and fast, just like using a trusted crypto wallet. My first withdrawal gave me full confidence to invest more.`,
             verified: true,
             avatarColor: "bg-emerald-500"
         },
@@ -92,7 +93,7 @@ export default function Reviews({ isPage = false }) {
             role: "Passive Investor",
             rating: 5,
             date: "1 week ago",
-            content: "I was impressed by how easy Fizohedge made everything. Funding my account and withdrawing profits was straightforward and stress-free. This platform truly delivers on its promises.",
+            content: `I was impressed by how easy ${APP_NAME} made everything. Funding my account and withdrawing profits was straightforward and stress-free. This platform truly delivers on its promises.`,
             verified: true,
             avatarColor: "bg-rose-500"
         },
@@ -133,7 +134,7 @@ export default function Reviews({ isPage = false }) {
                             What Our <span className="text-blue-600">Traders Say</span>
                         </h2>
                         <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                            Join over 1 million users who trust Fizohedge for their investment journey.
+                            Join over 1 million users who trust {APP_NAME} for their investment journey.
                             Hear from real traders about their experiences with our platform.
                         </p>
                     </div>
@@ -218,7 +219,7 @@ export default function Reviews({ isPage = false }) {
                     <div className="bg-gradient-to-r from-emerald-700 to-teal-700 text-center  p-12 text-white">
                         <h3 className="text-3xl font-bold mb-4">Ready to Start Your Success Story?</h3>
                         <p className="text-lg text-blue-100 mb-8 max-w-2xl mx-auto">
-                            Join thousands of successful traders who trust Fizohedge for their investment journey.
+                            Join thousands of successful traders who trust {APP_NAME} for their investment journey.
                             Start with as little as $1,000 and experience the difference.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">

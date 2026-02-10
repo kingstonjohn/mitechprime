@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Box from "../layout/box";
 import { CapIcon, TradeIcon } from "./svgs";
+import { APP_NAME } from "../constants";
 
 export default function InnovationPlatform() {
 
@@ -11,7 +12,7 @@ export default function InnovationPlatform() {
                     <img src="/images/innovation.png" alt="Innovation" />
                 </figure>
                 <h1 className="text-[24px] lg:text-[40px] text-ash font-bold text-center max-w-[600px]">
-                    Fizohedge: Innovation Platform
+                    {APP_NAME}: Innovation Platform
                     Digital Asset Trading
                 </h1>
                 <div className="w-full flex gap-5 lg:max-w-fit lg:flex-row flex-col">

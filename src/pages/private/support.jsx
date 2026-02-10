@@ -221,7 +221,7 @@ const InProgress = ({ isPending, supportTickets }) => {
                                 <p className="text-primary px-3 py-3 text-[12px] border-b border-b-[#efefef]">#{index + 1} - Support Ticket</p>
                                 <div className="py-2 px-3 text-[14px] bg-white rounded-b-[4px] flex gap-3">
                                     <figure className="p-2 h-[40px] w-[40px] shrink-0 border border-[#fafafa] rounded-full">
-                                        <img src="/fizomarkt.png" alt="Fizohedge" className="h-full w-full" />
+                                        <img src="/fizomarkt.png" alt={APP_NAME} className="h-full w-full" />
                                     </figure>
                                     <div className="flex-1 w-full">
                                         <h3 className="text-ash font-medium">{APP_NAME} Team</h3>
@@ -287,7 +287,7 @@ const Closed = ({ isPending, supportTickets }) => {
                                 <p className="text-primary px-3 py-3 text-[12px] border-b border-b-[#efefef]">#{index + 1} - Support Ticket</p>
                                 <div className="py-2 px-3 text-[14px] bg-white rounded-b-[4px] flex gap-3">
                                     <figure className="p-2 h-[40px] w-[40px] border border-[#fafafa] shrink-0 rounded-full">
-                                        <img src="/fizomarkt.png" alt="Fizohedge" className="h-full w-full" />
+                                        <img src="/fizomarkt.png" alt={APP_NAME} className="h-full w-full" />
                                     </figure>
                                     <div className="flex-1 w-full">
                                         <h3 className="text-ash font-medium">{APP_NAME} Team</h3>

@@ -8,6 +8,7 @@ import { MenuIcon } from "../components/svgs";
 import { useAuthStateContext } from "../context/authState";
 import GoogleTranslate from "../components/google-translate";
 import { Modal } from "../components/ui/modal";
+import { APP_NAME } from "../constants";
 
 export default function Navbar() {
 
@@ -68,12 +69,12 @@ export default function Navbar() {
                                                 <div className="nav-item-dropdown nav-items-dropdown-services">
                                                     <div className="nav-item-dropdown-triangle"></div>
 
-                                                    <a href="mailto:support@fizohedge.com" className="nav-item-dropdown-link hover:text-primary text-[15px] nav-item-dropdown-link text-[15px]">
-                                                        Support@fizohedge.com
+                                                    <a href={`mailto:team@${APP_NAME.toLocaleLowerCase()}`} className="nav-item-dropdown-link hover:text-primary text-[15px] nav-item-dropdown-link text-[15px]">
+                                                        team@{APP_NAME.toLocaleLowerCase()}.com
                                                     </a>
                                                     <div
                                                         onClick={openModalHandler}
-                                                        href="mailto:support@fizohedge.com" className="nav-item-dropdown-link hover:text-primary text-[15px] nav-item-dropdown-link text-[15px]"
+                                                        href={`mailto:team@${APP_NAME.toLocaleLowerCase()}`} className="nav-item-dropdown-link hover:text-primary text-[15px] nav-item-dropdown-link text-[15px]"
                                                     >
                                                         Office address
                                                     </div>
