@@ -64,15 +64,15 @@ export default function MobileNavbar({ visible, closeHandler, openModalHandler }
                                                                     </div>
                                                                 ) : (
                                                                     <div key={j}>
-                                                                        <a href={`mailto:team@${APP_NAME}.com`} className="text-[15px] text-[#a4a5ab] hover:text-[#D8BFD8]">
-                                                                            team@{APP_NAME}.com
+                                                                        <a href={`mailto:admin@${APP_NAME}.com`} className="text-[15px] text-[#a4a5ab] hover:text-[#D8BFD8]">
+                                                                            admin@{APP_NAME}.com
                                                                         </a>
                                                                         <div
                                                                             onClick={() => {
                                                                                 closeHandler();
                                                                                 openModalHandler();
                                                                             }}
-                                                                            href={`mailto:team@${APP_NAME}.com`} className="text-[15px] text-[#a4a5ab] hover:text-[#D8BFD8] mt-2 cursor-pointer"
+                                                                            href={`mailto:admin@${APP_NAME}.com`} className="text-[15px] text-[#a4a5ab] hover:text-[#D8BFD8] mt-2 cursor-pointer"
                                                                         >
                                                                             Office address
                                                                         </div>

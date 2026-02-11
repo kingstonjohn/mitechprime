@@ -69,12 +69,12 @@ export default function Navbar() {
                                                 <div className="nav-item-dropdown nav-items-dropdown-services">
                                                     <div className="nav-item-dropdown-triangle"></div>
 
-                                                    <a href={`mailto:team@${APP_NAME.toLocaleLowerCase()}`} className="nav-item-dropdown-link hover:text-primary text-[15px] nav-item-dropdown-link text-[15px]">
-                                                        team@{APP_NAME.toLocaleLowerCase()}.com
+                                                    <a href={`mailto:admin@${APP_NAME.toLocaleLowerCase()}`} className="nav-item-dropdown-link hover:text-primary text-[15px] nav-item-dropdown-link text-[15px]">
+                                                        admin@{APP_NAME.toLocaleLowerCase()}.com
                                                     </a>
                                                     <div
                                                         onClick={openModalHandler}
-                                                        href={`mailto:team@${APP_NAME.toLocaleLowerCase()}`} className="nav-item-dropdown-link hover:text-primary text-[15px] nav-item-dropdown-link text-[15px]"
+                                                        href={`mailto:admin@${APP_NAME.toLocaleLowerCase()}`} className="nav-item-dropdown-link hover:text-primary text-[15px] nav-item-dropdown-link text-[15px]"
                                                     >
                                                         Office address
                                                     </div>

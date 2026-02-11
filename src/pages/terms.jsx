@@ -59,7 +59,7 @@ const TermsCondition = () => {
 
                         {APP_NAME} is responsible for the processing of personal data that it receives under the Estonia laws, and other applicable international laws.<br /><br />
 
-                        Please take a moment to read this Terms & Conditions carefully. If you have any questions about this Terms & Conditions, please contact us at team@{APP_NAME}.com. You should review this Terms & Conditions periodically so that you are updated on any changes.<br /><br />
+                        Please take a moment to read this Terms & Conditions carefully. If you have any questions about this Terms & Conditions, please contact us at admin@{APP_NAME}.com. You should review this Terms & Conditions periodically so that you are updated on any changes.<br /><br />
 
                         Use of Website<br /><br />
                         By using this website, you agree to the Terms & Conditions of {APP_NAME}, which is set out on this website page. This Terms & Conditions is in addition to any other terms and conditions applicable to the website. This website may contain links to other websites not operated or controlled by us, and we do not make any representations about such third-party websites.
