@@ -29,4 +29,7 @@ export const teamImagesData = [
     {
         image: "/images/team/team-10.jpg",
     },
+    {
+        image: "/images/team/team-11.jpeg",
+    },
 ]
